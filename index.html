@@ -10,71 +10,32 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width:device-width,initial-scale=1.0" />
         <title>Página Básica</title>
-
-        <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        #cabecalho > h1{
-            text-align: center;
-                color: #fff;
-                background-color: #100000 !important;
-                padding: 20px 0;
-                box-shadow: 4px 3px 5px #41416d;
-                border-radius: 5px;
-                font-size: 64px;
-        }
-
-        ul{
-            list-style: none;
-            width: 135%;
-        }
-
-        #cabecalho nav{
-            margin: 15px 0;
-        }
-        
-        #cabecalho li {
-            display: inline-block;
-            margin: 0  8%;
-        }
-
-        #cabecalho  li img {
-        display: block;
-        width: 50%;
-        min-width: 10%;
-        }
-        
-
-        </style>
+        <link rel="stylesheet" href="./css/estilo.css">
 
     </head>
     <!-- segundo filho do html = body -->
     <body>
         <div class="container">
-        <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página. -->
+        <!-- O container é uma div que serve como contêiner geral para todo o conteúdo da página.a -->
         <header id="cabecalho">
             <h1>Minha Página</h1>
-            <nav>
-            <ul>
-                <li>
-                <a href="./paginas/help.html"> <img src="./img/iconHelp.png"
-                    alt="Caixa de texto com uma Interrogação."/> </a> </li>
-                
-                <li>
-                <a href="./paginas/about.html">
-                    <img src="./img/iconAbout.png" alt="Letra i em um circulo." />
-                </a>
-                </li>
+            <nav id="menu">
+                <ul>
+                    <li class="link">
+                    <a href="./paginas/help.html"> <img src="./img/iconHelp.png"
+                        alt="Caixa de texto com uma Interrogação."/> </a> </li>
+                    
+                    <li class="link">
+                    <a href="./paginas/about.html">
+                        <img src="./img/iconAbout.png" alt="Letra i em um circulo." />
+                    </a>
+                    </li>
 
-                <li>
-                    <a href="#contact"> <img src="./img/iconContant.png" 
-                        alt="Envelope de carta." /> </a>
-                </li>
-            </ul>
+                    <li class="link">
+                        <a href="#contact"> <img src="./img/iconContant.png" 
+                            alt="Envelope de carta." /> </a>
+                    </li>
+                </ul>
             </nav>
         </header> 
 
@@ -109,7 +70,7 @@
                 exercitationem non quod, aspernatur blanditiis autem dignissimos
                 explicabo corporis id ad similique eos soluta!
             </p>
-            <a href="./img/iconHelp.png">Mais...</a>
+            <a href="./paginas/help.html">Mais...</a>
             </div>
             <div>
             <h2>ABOUT</h2>
