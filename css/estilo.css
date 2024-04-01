@@ -7,15 +7,8 @@ header {
     font-size: 65.5%; /* Supondo que seja para estilizar o elemento header */
 }
 
-#cabecalho {
-    font-size: 62.5%;
-
-    /* Exemplo de background-image */
-    background-image: url('../img/Introducao-css3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: blue;
+.container {
+    padding: 20px;
 }
 
 h1 {
@@ -60,4 +53,30 @@ h2 {
 #menu ul {
     text-align: center;
     font-style: italic;
+}
+
+#links-sites{
+    font-style: italic;
+}
+
+#links-entre-paginas {
+    a {
+        font-style: italic;
+    }
+}
+
+
+#cabecalho {
+    font-size: 62.5%;
+
+    /* Exemplo de background-image */
+    background-image: url('../img/Introducao-css3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: blue;
+}
+
+#conteudo {
+    line-height: 1.5;
 }
