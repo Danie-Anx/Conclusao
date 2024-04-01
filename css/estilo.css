@@ -15,12 +15,18 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: blue;
 }
 
 h1 {
     color: rgb(245, 8, 8);
     font-size: 5em;
     text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    font-family: serif;
 }
 
 /* seletor de classes */
@@ -53,4 +59,5 @@ h1 {
 /* seletor de id */
 #menu ul {
     text-align: center;
+    font-style: italic;
 }
