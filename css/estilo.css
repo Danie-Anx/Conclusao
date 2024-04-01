@@ -62,7 +62,10 @@ h2 {
 /* seletor de id */
 #menu ul {
     text-align: center;
-    font-style: italic;
+   
+    a {
+        font-style: italic;
+    }
 }
 
 #contact {
