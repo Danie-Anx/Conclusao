@@ -64,6 +64,11 @@ h2 {
     form {
         border: solid 1px rgb(112, 107, 107);
         padding: 10px;
+
+        button {
+            background-color: blue;
+            color: white;
+        }
     }
 }
 
