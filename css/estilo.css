@@ -9,6 +9,11 @@ header {
 
 .container {
     padding: 20px;
+
+    p {
+        color:green; 
+
+    }
 }
 
 h1 {
