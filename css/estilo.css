@@ -16,6 +16,11 @@ header {
     }
 }
 
+.rodape {
+    border-top: 2px solid red;
+    margin-top: 15px;
+}
+
 h1 {
     color: rgb(245, 8, 8);
     font-size: 5em;
@@ -97,3 +102,4 @@ h2 {
 #conteudo {
     line-height: 1.5;
 }
+
